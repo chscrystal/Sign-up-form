@@ -81,3 +81,17 @@ input {
     border: #f2ead9 solid;
     border-radius: 0.2rem;
 }
+
+input:focus {
+    outline: none;
+    border: rgb(141, 100, 53) solid;
+    box-shadow: 2px 5px 4px -3px;
+}
+
+input:focus:valid {
+    border-color: green;
+}
+
+input:focus:invalid {
+    border-color: red;
+}
